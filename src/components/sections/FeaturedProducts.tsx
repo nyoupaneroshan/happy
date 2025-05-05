@@ -32,7 +32,14 @@ const FeaturedProducts: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <Button
+          <Link
+            to="/products"
+            className="inline-flex items-center gap-2 px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-lg text-lg font-semibold transition"
+          >
+            <ShoppingBag size={18} />
+            View All Products
+          </Link>
+          {/* <Button
             component={Link}
             to="/products"
             variant="secondary"
@@ -40,7 +47,7 @@ const FeaturedProducts: React.FC = () => {
             icon={<ShoppingBag size={18} />}
           >
             View All Products
-          </Button>
+          </Button> */}
         </motion.div>
       </div>
     </section>

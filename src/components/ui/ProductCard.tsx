@@ -112,7 +112,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, featured = false }) 
           </div>
         </div>
         
-        <Button 
+        {/* <Button 
           variant="primary" 
           fullWidth 
           disabled={!selectedVariant.inStock}
@@ -120,7 +120,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, featured = false }) 
           iconPosition="left"
         >
           {selectedVariant.inStock ? 'Add to Cart' : 'Out of Stock'}
-        </Button>
+        </Button> */}
       </div>
     </motion.div>
   );

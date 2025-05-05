@@ -33,9 +33,10 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                component={Link}
-                to="/products"
+            <Link to="/products">
+            <Button
+                // as={Link}
+                // to="/products"
                 variant="primary"
                 size="lg"
                 icon={<ArrowRight size={18} />}
@@ -43,14 +44,18 @@ const Hero: React.FC = () => {
               >
                 Explore Products
               </Button>
+              </Link>
+
+              <Link to="/about">
               <Button
-                component={Link}
-                to="/about"
+                // as={Link}
+                // to="/about"
                 variant="outline"
                 size="lg"
               >
                 Learn More
               </Button>
+              </Link>
             </div>
             
             <div className="flex items-center mt-8 space-x-6">

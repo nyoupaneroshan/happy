@@ -60,9 +60,10 @@ const NewsletterCTA: React.FC = () => {
             <Button 
               type="submit"
               variant="primary" 
-              className="bg-white text-secondary-600 hover:bg-gray-100"
+              className="bg-[#0047BB] text-secondary-600 hover:bg-red-600 transition-colors duration-300"
               icon={<Send size={16} />}
             >
+
               Subscribe
             </Button>
           </motion.form>
