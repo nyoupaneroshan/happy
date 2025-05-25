@@ -22,18 +22,18 @@ const Footer: React.FC = () => {
               Committed to bringing you the best dental care products for a brighter smile and healthier teeth.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-primary-500 transition">
+              <a href="https://www.facebook.com/whitehappydent" className="text-gray-400 hover:text-primary-500 transition">
                 <FacebookIcon size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary-500 transition">
+              {/* <a href="#" className="text-gray-400 hover:text-primary-500 transition">
                 <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary-500 transition">
+              </a> */}
+              <a href="https://www.instagram.com/white_happydent_toothpaste/" className="text-gray-400 hover:text-primary-500 transition">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary-500 transition">
+              {/* <a href="#" className="text-gray-400 hover:text-primary-500 transition">
                 <Youtube size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
           
