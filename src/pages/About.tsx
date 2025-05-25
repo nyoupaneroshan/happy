@@ -130,7 +130,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container">
           <SectionHeading
             title="Meet Our Team"
@@ -181,7 +181,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Stats Section */}
       <section className="py-16 bg-primary-600 text-white">
