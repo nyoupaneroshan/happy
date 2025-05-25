@@ -47,7 +47,7 @@ const About: React.FC = () => {
               transition={{ duration: 0.6 }}
             >
               <img
-                src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="/public/about.png"
                 alt="White Happydent Laboratory"
                 className="rounded-lg shadow-xl"
               />
@@ -65,21 +65,15 @@ const About: React.FC = () => {
                 transition={{ duration: 0.6 }}
               >
                 <p className="text-gray-600 mb-6">
-                  Founded in 2000, White Happydent began with a simple mission: to create effective, 
-                  science-backed oral care products that people would actually enjoy using every day.
+                  White Happydent was born with one goal in mind: to make oral care not just effective, but enjoyable. From the very start, we set out to create toothpaste that goes beyond cleaning — delivering freshness, confidence, and a healthier smile every day.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  Our founder, Dr. Emily Richards, a practicing dentist for over 15 years, was frustrated 
-                  with the gap between clinical dental care and the products people used at home. She 
-                  envisioned a brand that would bridge this gap, bringing professional-grade oral care into 
-                  daily routines.
+                  Built on the belief that everyone deserves a radiant smile, our team of dental experts and herbal scientists combined modern research with time-tested natural ingredients. The result? A 100% herbal active toothpaste that strengthens gums, whitens teeth, and keeps breath fresh — naturally.
                 </p>
                 <p className="text-gray-600">
-                  Today, White Happydent has grown from a small startup to a trusted name in dental care, 
-                  available in over 50 countries worldwide. Despite our growth, we remain committed to our 
-                  original mission: developing innovative products that combine cutting-edge science with 
-                  natural ingredients to promote oral health for everyone.
+                  Today, White Happydent stands as a trusted name in oral wellness, loved by families around the world. But our promise remains the same: to give you whiter, stronger teeth — and a reason to smile with confidence.
                 </p>
+
               </motion.div>
             </div>
           </div>
@@ -194,10 +188,10 @@ const About: React.FC = () => {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { number: "25+", label: "Years of experience" },
-              { number: "50+", label: "Countries worldwide" },
+              { number: "2+", label: "Years of experience" },
+              { number: "1+", label: "Countries worldwide" },
               { number: "100+", label: "Dental professionals" },
-              { number: "10M+", label: "Happy customers" }
+              { number: "1M+", label: "Happy customers" }
             ].map((stat, index) => (
               <motion.div
                 key={index}
