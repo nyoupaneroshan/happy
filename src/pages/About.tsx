@@ -47,7 +47,7 @@ const About: React.FC = () => {
               transition={{ duration: 0.6 }}
             >
               <img
-                src="/public/about.png"
+                src="https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/about.png"
                 alt="White Happydent Laboratory"
                 className="rounded-lg shadow-xl"
               />
