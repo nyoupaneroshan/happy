@@ -60,7 +60,7 @@ export const products: Product[] = [
     ],
     featured: true,
     // image: "https://images.pexels.com/photos/4465125/pexels-photo-4465125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/product/1.png"
+    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/1.png"
   },
   {
     id: 2,
@@ -103,7 +103,7 @@ export const products: Product[] = [
       // }
     ],
     featured: true,
-    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/product/2.png"
+    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/2.png"
   },
   {
     id: 3,
@@ -147,6 +147,6 @@ export const products: Product[] = [
       // }
     ],
     featured: true,
-    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/product/3.png"
+    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/3.png"
   }
 ];
