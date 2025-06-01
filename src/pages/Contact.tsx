@@ -40,6 +40,7 @@ const Contact: React.FC = () => {
         },
         body: JSON.stringify({
           name: formData.name,
+          contact: formData.contact,
           email: formData.email,
           subject: formData.subject,
           message: formData.message,
