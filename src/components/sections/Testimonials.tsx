@@ -13,26 +13,34 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    id: 1,
-    content: "White Happydent has completely transformed my morning routine! My teeth feel cleaner than ever, and the fresh mint flavor lasts throughout the day. I've noticed less sensitivity since switching, too.",
-    author: "Emily Johnson",
-    position: "Marketing Director",
-    avatar: "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    id: 4,
+    content: "हामी Aloora Skin Care मा हाम्रा ग्राहकहरूलाई सधैं उत्कृष्ट उत्पादनहरू दिन चाहन्छौं। White Happydent Toothpaste ले हामीलाई नै विश्वास दिलाएको छ—यसको सफा गर्ने क्षमताले हाम्रो स्टोरको बेस्ट सेलर बन्न पुगेको छ!",
+    author: "Aloora Skin Care",
+    position: "Owner",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3THk4wC8zz282NFGJgG-c0eXYqrmyeLylw&s"
   },
   {
-    id: 2,
-    content: "As someone with sensitive teeth, I've tried countless toothpastes with disappointing results. White Happydent's Sensitive Care Formula is the first one that actually works for me. I can finally enjoy ice cream again!",
-    author: "Michael Zhang",
-    position: "Software Engineer",
-    avatar: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    id: 5,
+    content: "Nisha Cosmetics मा, हामीले धेरै ब्रान्ड परीक्षण गरेका थियौं, तर White Happydent जत्तिको प्रभावकारी र ग्राहकले मन पराउने कुनै थिएन। यसको स्वाद, गुणस्तर, र प्याकेजिङ सबै कुराले हाम्रो माया जितेको छ।",
+    author: "Nisha Cosmetics",
+    position: "Owner",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHvv8RrPHCeDsQqsZmrstDXwnlBgok1USF1A&s"
   },
   {
-    id: 3,
-    content: "I've been using the Natural Fresh Mint toothpaste for my entire family, and we love it! It's gentle enough for my kids but effective enough for adults. Plus, I feel good about the natural ingredients.",
-    author: "Sophia Williams",
-    position: "Elementary School Teacher",
-    avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    id: 6,
+    content: "Ishwori Cosmetics मा ग्राहकले प्रायः प्राकृतिक र प्रभावकारी विकल्प खोज्छन्। White Happydent को sugar-free र whitening फर्मुलाले हामीलाई हाम्रो सेग्मेन्टमा फरक पार्न सहयोग गरेको छ।",
+    author: "Ishwori Cosmetics",
+    position: "Owner",
+    avatar: "https://content.jdmagicbox.com/comp/nashik/k1/0253px253.x253.130806134848.x2k1/catalogue/ishwari-cosmetics-nashik-road-nashik-cosmetic-dealers-3rplyhp.jpg"
+  },
+  {
+    id: 7,
+    content: "हाम्रो गिफ्ट शपमा दैनिक प्रयोग हुने उपयोगी र गुणस्तरीय सामग्रीहरू राख्न रुचाउँछौं। White Happydent को आकर्षक लुक र प्रभावकारिताले गर्दा यो ग्राहकको रोजाइमा परेको छ। उपहारको रुपमा पनि निकै लोकप्रिय भएको छ।",
+    author: "Krivesh Gift Shop",
+    position: "Owner",
+    avatar: "https://images.pexels.com/photos/5240503/pexels-photo-5240503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   }
+  
 ];
 
 const Testimonials: React.FC = () => {
