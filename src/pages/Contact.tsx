@@ -6,6 +6,7 @@ import { MapPin, Phone, Mail, Clock, CheckCircle } from 'lucide-react';
 
 interface FormData {
   name: string;
+  contact: string;
   email: string;
   subject: string;
   message: string;
@@ -14,6 +15,7 @@ interface FormData {
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState<FormData>({
     name: '',
+    contact: '',
     email: '',
     subject: '',
     message: ''
@@ -47,7 +49,7 @@ const Contact: React.FC = () => {
 
       if (response.ok) {
         setSubmitted(true);
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        setFormData({ name: '', contact: '', email: '', subject: '', message: '' });
         setTimeout(() => setSubmitted(false), 5000);
       }
     } catch (error) {
@@ -291,9 +293,24 @@ const Contact: React.FC = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
                       />
                     </div>
+                    
                   </div>
                   
                   <div className="mb-6">
+                  <div>
+                      <label htmlFor="contact" className="block text-sm font-medium text-gray-700 mb-1">
+                        Contact Number <span className="text-red-500">*</span>
+                      </label>
+                      <input
+                        type="name"
+                        id="contact"
+                        name="contact"
+                        value={formData.contact}
+                        onChange={handleChange}
+                        required
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      />
+                    </div>
                     <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
                       Subject <span className="text-red-500">*</span>
                     </label>
