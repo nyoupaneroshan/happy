@@ -10,6 +10,9 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   fullWidth?: boolean;
   icon?: React.ReactNode;
   iconPosition?: 'left' | 'right';
+  component?: React.ElementType; // Add component prop to allow rendering as Link or other components
+  to?: string; // Add to prop for Link compatibility
+  className?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -20,6 +23,8 @@ const Button: React.FC<ButtonProps> = ({
   fullWidth = false,
   icon,
   iconPosition = 'left',
+  component: Component = 'button', // Default to 'button' if no component is provided
+  to,
   ...props
 }) => {
   const getVariantClasses = (): string => {
@@ -53,7 +58,8 @@ const Button: React.FC<ButtonProps> = ({
   };
 
   return (
-    <button
+    <Component
+      to={to} // Pass the to prop for Link
       className={`
         inline-flex items-center justify-center font-medium rounded-md 
         transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2
@@ -71,7 +77,7 @@ const Button: React.FC<ButtonProps> = ({
       {icon && iconPosition === 'right' && (
         <span className="ml-2">{icon}</span>
       )}
-    </button>
+    </Component>
   );
 };
 

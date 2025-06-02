@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { blogPosts } from '../data/blogs';
 import BlogCard from '../components/ui/BlogCard';
 import SectionHeading from '../components/ui/SectionHeading';
 import { Search, Filter } from 'lucide-react';
 import NewsletterCTA from '../components/sections/NewsletterCTA';
+
+// Helper function to generate a slug from a title
+const generateSlug = (title: string): string => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+    .trim()
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/-+/g, '-'); // Replace multiple hyphens with a single hyphen
+};
 
 const Blog: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -75,7 +86,7 @@ const Blog: React.FC = () => {
               <Filter className="mr-2 text-gray-500" size={18} />
               <select
                 value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
+                onChange={(e) => setSearchTerm(e.target.value)}
                 className="border border-gray-300 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-primary-500"
               >
                 <option value="">All Categories</option>
@@ -88,9 +99,15 @@ const Blog: React.FC = () => {
           
           {filteredPosts.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredPosts.map((post) => (
-                <BlogCard key={post.id} post={post} />
-              ))}
+              {filteredPosts.map((post) => {
+                // Use the slug if it exists, otherwise generate one from the title
+                const slug = post.slug || generateSlug(post.title);
+                return (
+                  <Link to={`/blog/${slug}`} key={post.id}>
+                    <BlogCard post={post} />
+                  </Link>
+                );
+              })}
             </div>
           ) : (
             <div className="text-center py-12">

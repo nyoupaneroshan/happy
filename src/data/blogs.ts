@@ -5,44 +5,49 @@ export interface BlogPost {
   content: string;
   author: string;
   date: string;
+  slug: string;
   image: string;
   category: string;
   tags: string[];
 }
 
+
 export const blogPosts: BlogPost[] = [
   {
     id: 1,
     title: "5 Daily Habits for Healthier Teeth and Gums",
-    excerpt: "Discover simple yet effective daily routines that can significantly improve your oral health and keep your smile bright.",
+    slug: "5-daily-habits-for-healthier-teeth-and-gums",
+    excerpt: "Discover 5 daily habits to improve oral health and maintain a bright smile. Learn brushing, flossing, and more for healthier teeth and gums (150 chars)",
     content: `
-      # 5 Daily Habits for Healthier Teeth and Gums
+      <h1>5 Daily Habits for Healthier Teeth and Gums</h1>
 
-      Maintaining good oral hygiene is essential for a healthy smile and overall well-being. Here are five daily habits that can help keep your teeth and gums in top condition:
+      <p>Maintaining healthy teeth and gums isn't just about a pretty smile—it's crucial for overall wellness. At White Happydent, we believe in proactive care. Follow these five simple yet effective daily habits to protect your oral health.</p>
 
-      ## 1. Brush Properly, Twice a Day
+      <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Brushing teeth with a soft-bristled toothbrush" class="w-full h-64 object-cover mb-6 rounded-md">
 
-      Brushing your teeth twice a day is fundamental, but how you brush matters just as much as how often. Use a soft-bristled toothbrush and fluoride toothpaste. Hold your brush at a 45-degree angle to your gums and use gentle, circular motions. Be sure to brush for at least two minutes, covering all surfaces of your teeth.
+      <h2>1. Brush Properly, Twice a Day</h2>
+      <p>Use a fluoride toothpaste like <strong>White Happydent</strong> and a soft-bristled toothbrush. Hold the brush at a 45-degree angle and use gentle, circular motions. Brush for at least two minutes—morning and night—for best results.</p>
 
-      ## 2. Don't Skip Flossing
+      <h2>2. Don't Skip Flossing</h2>
+      <p>Floss daily to clean areas between your teeth that brushing can’t reach. It helps remove plaque and prevents gum disease and cavities. Floss before bedtime for maximum effectiveness.</p>
 
-      Flossing removes food particles and plaque from areas your toothbrush can't reach, such as between teeth and under the gumline. Make flossing a daily habit, ideally before bedtime, to prevent gum disease and cavities.
+      <img src="https://images.pexels.com/photos/4067977/pexels-photo-4067977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Flossing teeth for oral hygiene" class="w-full h-64 object-cover mb-6 rounded-md">
 
-      ## 3. Rinse with an Antibacterial Mouthwash
+      <h2>3. Use an Antibacterial Mouthwash</h2>
+      <p>Rinsing with mouthwash reduces plaque and bacteria, helping to prevent gingivitis and bad breath. Choose an alcohol-free formula for gentler daily use.</p>
 
-      Adding a therapeutic mouthwash to your routine can help reduce plaque, prevent gingivitis, and freshen your breath. Look for products with the ADA Seal of Acceptance for best results.
+      <h2>4. Stay Hydrated</h2>
+      <p>Drinking water throughout the day helps rinse away food particles, reduces acidity, and stimulates saliva production, which naturally protects your teeth.</p>
 
-      ## 4. Stay Hydrated
+      <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Glass of water promoting oral hydration" class="w-full h-64 object-cover mb-6 rounded-md">
 
-      Drinking plenty of water throughout the day helps wash away food particles and bacteria. Water also dilutes acids produced by bacteria in your mouth and stimulates saliva production, which naturally protects your teeth.
+      <h2>5. Eat Mindfully</h2>
+      <p>Limit sugary snacks and acidic beverages. If you do indulge, rinse with water and wait 30 minutes before brushing to avoid damaging softened enamel.</p>
 
-      ## 5. Mindful Eating for Dental Health
+      <p>Healthy teeth begin with daily care. Visit our <a href="/products">Products</a> page to explore White Happydent toothpaste and other oral care solutions. For more tips, explore the rest of our <a href="/articles">blog articles</a> or get in touch via our <a href="/contact">contact page</a>.</p>
 
-      Limit sugary snacks and acidic beverages, which can erode enamel and lead to cavities. If you do indulge, rinse your mouth with water afterward and wait at least 30 minutes before brushing to avoid damaging enamel that's been softened by acids.
-
-      By incorporating these five habits into your daily routine, you'll be taking significant steps toward maintaining healthy teeth and gums for life.
     `,
-    author: "Dr. Sarah Johnson",
+    author: "Admin",
     date: "March 15, 2025",
     image: "https://images.pexels.com/photos/3762453/pexels-photo-3762453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Oral Health",
@@ -51,53 +56,52 @@ export const blogPosts: BlogPost[] = [
   {
     id: 2,
     title: "Understanding Tooth Sensitivity: Causes and Solutions",
-    excerpt: "Learn what causes sensitive teeth and discover effective ways to manage and treat this common dental condition.",
+    excerpt: "Learn the causes of tooth sensitivity and effective solutions to manage this common issue. Explore treatments for sensitive teeth (145 chars)",
+    slug: "understanding-tooth-sensitivity-causes-and-solutions",
     content: `
-      # Understanding Tooth Sensitivity: Causes and Solutions
+     <h1>Understanding Tooth Sensitivity: Causes and Solutions</h1>
 
-      That sharp, sudden pain when you eat something hot, cold, sweet, or acidic is a telltale sign of tooth sensitivity. This common dental issue affects millions of people, but with proper understanding and care, it can be managed effectively.
+<p>Sharp pain from hot or cold drinks? You might have tooth sensitivity—a common condition caused by worn enamel or exposed roots. Let’s explore the causes and how to manage it effectively.</p>
 
-      ## What Causes Tooth Sensitivity?
+<h2>Common Causes of Tooth Sensitivity</h2>
+<ul>
+  <li><strong>Enamel erosion:</strong> From acidic foods or brushing too hard</li>
+  <li><strong>Gum recession:</strong> Exposes tooth roots</li>
+  <li><strong>Bruxism:</strong> Grinding your teeth wears them down</li>
+  <li><strong>Dental procedures:</strong> Recent fillings or whitening treatments</li>
+  <li><strong>Tooth decay or cracks:</strong> Allow nerves to become exposed</li>
+</ul>
 
-      Tooth sensitivity occurs when the protective layers of your teeth—enamel on the crown and cementum on the root—wear down, exposing the underlying dentin. Dentin contains microscopic tubules filled with nerve endings that connect to the tooth's pulp. When these tubules are exposed, stimuli like temperature extremes, acidic or sweet foods, and even cold air can trigger pain.
+<h2>Solutions for Sensitive Teeth</h2>
 
-      Common causes include:
+<h3>Immediate Relief</h3>
+<ul>
+  <li>Use desensitizing toothpaste with potassium nitrate</li>
+  <li>Switch to a soft-bristled toothbrush and brush gently</li>
+  <li>Avoid extreme temperatures in foods and drinks</li>
+</ul>
 
-      - **Enamel erosion** from acidic foods and beverages
-      - **Aggressive brushing** that wears down enamel
-      - **Gum recession** that exposes tooth roots
-      - **Teeth grinding** (bruxism)
-      - **Recent dental procedures** like whitening, fillings, or crowns
-      - **Cracked teeth or fillings** that expose dentin
-      - **Gum disease** causing tissue inflammation and recession
+<img src="https://images.pexels.com/photos/207513/pexels-photo-207513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Using desensitizing toothpaste for relief" class="w-full h-64 object-cover mb-6 rounded-md">
 
-      ## Effective Solutions for Sensitive Teeth
+<h3>Long-Term Dental Care</h3>
+<ul>
+  <li><strong>Fluoride treatments:</strong> Strengthen enamel</li>
+  <li><strong>Dental bonding:</strong> Protect exposed root surfaces</li>
+  <li><strong>Gum grafts:</strong> Restore receding gums</li>
+  <li><strong>Night guards:</strong> Prevent grinding damage</li>
+</ul>
 
-      ### Immediate Relief
+<h3>Prevention Tips</h3>
+<ul>
+  <li>Brush with the right technique and avoid overbrushing</li>
+  <li>Limit acidic foods and rinse with water after eating</li>
+  <li>Use a straw for citrus or soda</li>
+  <li>Wait 30 minutes to brush after eating acidic foods</li>
+</ul>
 
-      - **Desensitizing toothpaste** containing ingredients like potassium nitrate or stannous fluoride can block pain signals from the nerve.
-      - **Soft-bristled toothbrush** with gentle brushing technique.
-      - **Avoiding trigger foods and beverages** that cause discomfort.
-
-      ### Long-term Management
-
-      - **Fluoride treatments** to strengthen enamel and reduce sensitivity.
-      - **Dental bonding or sealants** to cover exposed root surfaces.
-      - **Gum grafts** for severe gum recession.
-      - **Night guards** for those who grind their teeth.
-      - **Root canal** for severe, persistent sensitivity that doesn't respond to other treatments.
-
-      ### Preventive Measures
-
-      - **Proper brushing technique** using a soft-bristled toothbrush and gentle, circular motions.
-      - **Regular dental check-ups** to catch issues early.
-      - **Limiting acidic foods and drinks** and rinsing with water afterward.
-      - **Using a straw** for acidic beverages to minimize contact with teeth.
-      - **Waiting 30 minutes after consuming acidic foods** before brushing.
-
-      If you're experiencing tooth sensitivity, it's important to consult with your dentist to determine the underlying cause and the most appropriate treatment plan for your specific situation.
+<p>If sensitivity persists, consult your dentist. For additional advice or to explore our protective toothpaste range, visit our <a href="/products">Products</a> page or <a href="/contact">contact us</a>.</p>
     `,
-    author: "Dr. Michael Chen",
+    author: "Admin",
     date: "February 28, 2025",
     image: "https://images.pexels.com/photos/3845545/pexels-photo-3845545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     category: "Dental Problems",
@@ -106,56 +110,49 @@ export const blogPosts: BlogPost[] = [
   {
     id: 3,
     title: "The Connection Between Oral Health and Overall Wellness",
-    excerpt: "Explore the surprising ways your dental health impacts your entire body and learn why a healthy mouth is essential for overall wellness.",
+    excerpt: "Explore how oral health impacts overall wellness. Learn the link to heart disease, diabetes, and more for better health (140 chars)",
+    slug: "the-connection-between-oral-health-and-overall-wellness",
     content: `
-      # The Connection Between Oral Health and Overall Wellness
+      <h1>The Connection Between Oral Health and Overall Wellness</h1>
 
-      Your mouth is the gateway to your body, and the state of your oral health can offer clues about your overall health. Beyond just preventing bad breath, cavities, and gum disease, maintaining good oral hygiene may help protect you from more serious health conditions.
+<p>Oral health is more than just keeping your teeth clean—it plays a key role in your entire body’s well-being. Here’s how maintaining a healthy mouth supports heart health, immunity, and more.</p>
 
-      ## The Mouth-Body Connection
+<h2>How Oral Health Affects the Body</h2>
+<p>Gum disease and untreated dental issues introduce harmful bacteria into the bloodstream, which can trigger inflammation and increase the risk of various chronic illnesses.</p>
 
-      The same bacteria that cause gum inflammation and disease can enter your bloodstream through infected gums. Once these bacteria are circulating throughout your body, they can potentially contribute to or exacerbate various health issues.
+<h2>Linked Health Conditions</h2>
 
-      ## Oral Health and Chronic Conditions
+<h3>Heart Disease</h3>
+<p>Bacteria from gum disease can inflame blood vessels and increase the risk of heart attacks and strokes.</p>
 
-      Research has shown connections between oral health and several serious conditions:
+<img src="https://images.pexels.com/photos/5206928/pexels-photo-5206928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Heart health and oral care link" class="w-full h-64 object-cover mb-6 rounded-md">
 
-      ### Heart Disease and Stroke
+<h3>Diabetes</h3>
+<p>Poor oral health makes it harder to control blood sugar, while diabetes can worsen gum infections.</p>
 
-      Studies have found that people with gum disease are more likely to have heart disease and are at higher risk for strokes. The inflammation caused by periodontal disease may play a role in clogging arteries and forming blood clots.
+<h3>Respiratory Infections</h3>
+<p>Bacteria from the mouth can be inhaled into the lungs, causing infections like pneumonia—especially in the elderly.</p>
 
-      ### Diabetes
+<h3>Pregnancy Risks</h3>
+<p>Gum disease is associated with premature births and low birth weights. Oral health is essential during pregnancy.</p>
 
-      There's a two-way relationship between diabetes and periodontal disease. People with diabetes are more susceptible to gum disease, while severe gum disease can potentially impact blood glucose control, making diabetes more difficult to manage.
+<h3>Rheumatoid Arthritis</h3>
+<p>Chronic gum inflammation can worsen symptoms of autoimmune diseases like arthritis.</p>
 
-      ### Respiratory Infections
+<h2>How to Protect Your Overall Health</h2>
+<ul>
+  <li><strong>Brush twice daily</strong> with fluoride toothpaste like White Happydent</li>
+  <li><strong>Floss daily</strong> to prevent plaque build-up</li>
+  <li><strong>Eat a balanced diet</strong> rich in vegetables and low in sugars</li>
+  <li><strong>Quit tobacco</strong> to lower disease risks</li>
+  <li><strong>Visit your dentist</strong> for routine cleanings and exams</li>
+</ul>
 
-      Bacteria from the mouth can be aspirated into the lungs, potentially causing or worsening respiratory conditions like pneumonia, particularly in vulnerable individuals.
-
-      ### Pregnancy Complications
-
-      Research suggests a link between gum disease in pregnant women and complications such as premature birth and low birth weight.
-
-      ### Rheumatoid Arthritis
-
-      The inflammation associated with periodontal disease may worsen inflammation throughout the body, including in the joints of people with rheumatoid arthritis.
-
-      ## Protecting Your Oral and Overall Health
-
-      Taking care of your mouth is a crucial part of caring for your entire body. Here's how to maintain optimal oral health:
-
-      - **Brush twice daily** with fluoride toothpaste
-      - **Floss daily** to remove plaque between teeth
-      - **Visit your dentist regularly** for cleanings and check-ups
-      - **Eat a balanced diet** low in sugary foods and drinks
-      - **Don't smoke or use tobacco products**
-      - **Manage chronic conditions** like diabetes
-
-      By prioritizing your oral health, you're making an investment in your overall wellness and potentially reducing your risk for various chronic conditions. Remember, a healthy mouth contributes to a healthy body!
+<p>Your mouth is a mirror of your body. For more insights, explore our <a href="/articles">blog</a> or check out our <a href="/products">oral care products</a> that promote complete health. Have questions? <a href="/contact">Reach out to us</a> today!</p>
     `,
-    author: "Dr. Lisa Williams",
+    author: "Admin",
     date: "January 12, 2025",
-    image: "https://images.pexels.com/photos/7296511/pexels-photo-7296511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/12148417/pexels-photo-12148417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 1x, https://images.pexels.com/photos/12148417/pexels-photo-12148417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 2x",
     category: "Wellness",
     tags: ["overall health", "oral-systemic connection", "preventive care"]
   }
