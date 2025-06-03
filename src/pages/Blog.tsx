@@ -102,9 +102,10 @@ const Blog: React.FC = () => {
               {filteredPosts.map((post) => {
                 // Use the slug if it exists, otherwise generate one from the title
                 const slug = post.slug || generateSlug(post.title);
+                
                 return (
                   <Link to={`/blog/${slug}`} key={post.id}>
-                    <BlogCard post={post} />
+                    <BlogCard post={post}  />
                   </Link>
                 );
               })}

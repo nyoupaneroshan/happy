@@ -52,7 +52,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ post, compact = false }) => {
         </div>
         
         <h3 className="text-xl font-bold mb-2 line-clamp-2">
-          <Link to={`/blog/${post.id}`} className="hover:text-primary-500 transition-colors">
+          <Link to={`/blog/${post.slug}`} className="hover:text-primary-500 transition-colors">
             {post.title}
           </Link>
         </h3>
@@ -73,7 +73,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ post, compact = false }) => {
         )}
         
         <Link 
-          to={`/blog/${post.id}`}
+          to={`/blog/${post.slug}`}
           className="inline-flex items-center text-primary-500 font-medium hover:text-primary-600 transition-colors"
         >
           Read More

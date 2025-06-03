@@ -16,8 +16,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1,
     title: "5 Daily Habits for Healthier Teeth and Gums",
-    slug: "5-daily-habits-for-healthier-teeth-and-gums",
     excerpt: "Discover 5 daily habits to improve oral health and maintain a bright smile. Learn brushing, flossing, and more for healthier teeth and gums (150 chars)",
+    slug: "5-daily-habits-for-healthier-teeth-and-gums",
     content: `
       <h1>5 Daily Habits for Healthier Teeth and Gums</h1>
 
