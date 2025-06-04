@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} White Happydent. All rights reserved.
+            &copy; {currentYear} <a href='https://11techmedia.com.np' target='_' className='text-primary-500 hover:text-primary-600 transition'>White Happydent</a>. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-primary-500 text-sm">Privacy Policy</a>
