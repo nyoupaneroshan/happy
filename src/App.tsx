@@ -18,7 +18,7 @@ import Login from './pages/admin/Login';
 import Dashboard from './pages/admin/Dashboard';
 import BlogPost from './pages/BlogPost';
 import PrivacyPolicy from './pages/PrivacyPolicy';
-import TermsOfService from './pages/📄 TermsOfService';
+import TermsOfService from './pages/TermsOfService';
 import CookiePolicy from './pages/CookiePolicy';
 
 const App: React.FC = () => {
