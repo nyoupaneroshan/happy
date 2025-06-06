@@ -17,6 +17,9 @@ import NotFound from './pages/NotFound';
 import Login from './pages/admin/Login';
 import Dashboard from './pages/admin/Dashboard';
 import BlogPost from './pages/BlogPost';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/📄 TermsOfService';
+import CookiePolicy from './pages/CookiePolicy';
 
 const App: React.FC = () => {
   const location = useLocation();
@@ -42,6 +45,9 @@ const App: React.FC = () => {
             <Route path="/admin/login" element={<Login />} />
             <Route path="/admin/dashboard" element={<Dashboard />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+            <Route path="/termsofservice" element={<TermsOfService />} />
+            <Route path="/cookiepolicy" element={<CookiePolicy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AnimatePresence>
