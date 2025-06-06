@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
       <h2>5. Eat Mindfully</h2>
       <p>Limit sugary snacks and acidic beverages. If you do indulge, rinse with water and wait 30 minutes before brushing to avoid damaging softened enamel.</p>
 
-      <p>Healthy teeth begin with daily care. Visit our <a href="/products">Products</a> page to explore White Happydent toothpaste and other oral care solutions. For more tips, explore the rest of our <a href="/articles">blog articles</a> or get in touch via our <a href="/contact">contact page</a>.</p>
+      <p>Healthy teeth begin with daily care. Visit our <a href="/products">Products</a> page to explore White Happydent toothpaste and other oral care solutions. For more tips, explore the rest of our <a href="/blog">blog articles</a> or get in touch via our <a href="/contact">contact page</a>.</p>
 
     `,
     author: "Admin",
@@ -148,7 +148,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Visit your dentist</strong> for routine cleanings and exams</li>
 </ul>
 
-<p>Your mouth is a mirror of your body. For more insights, explore our <a href="/articles">blog</a> or check out our <a href="/products">oral care products</a> that promote complete health. Have questions? <a href="/contact">Reach out to us</a> today!</p>
+<p>Your mouth is a mirror of your body. For more insights, explore our <a href="/blog">blog</a> or check out our <a href="/products">oral care products</a> that promote complete health. Have questions? <a href="/contact">Reach out to us</a> today!</p>
     `,
     author: "Admin",
     date: "January 12, 2025",
