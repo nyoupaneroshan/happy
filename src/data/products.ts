@@ -148,5 +148,49 @@ export const products: Product[] = [
     ],
     featured: true,
     image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/3.png"
+  },
+  {
+    id: 4,
+    name: "Happydent-S Toothpaste",
+    description: "Our all-natural formula with organic ingredients provides effective cleaning without harsh chemicals. Enriched with essential oils and natural mint for exceptional freshness and gentle protection for the whole family.",
+    benefits: [
+      
+      "Free from artificial colors and flavors",
+      "Prevents cavities and strengthens teeth naturally",
+      "Eco-friendly packaging",
+      "Safe for the entire family"
+    ],
+    ingredients: [
+      "Aqua",
+      "Sorbitol",
+      "PEG",
+      "Precipitated Silica",
+      "Clove Oil",
+      "Neem Oil"
+    ],
+    variants: [
+      {
+        id: 305,
+        size: "70 gm",
+        price: 210,
+        inStock: true
+      }
+      // ,
+      // {
+      //   id: 302,
+      //   size: "125ml",
+      //   price: 8.99,
+      //   discountPrice: 7.49,
+      //   inStock: true
+      // },
+      // {
+      //   id: 303,
+      //   size: "200ml",
+      //   price: 12.99,
+      //   inStock: true
+      // }
+    ],
+    featured: true,
+    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/Happydent-S.png"
   }
 ];
