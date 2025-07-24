@@ -191,6 +191,6 @@ export const products: Product[] = [
       // }
     ],
     featured: true,
-    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/Happydent-S.png"
+    image: "https://raw.githubusercontent.com/nyoupaneroshan/happy/refs/heads/main/public/happydents.png"
   }
 ];
