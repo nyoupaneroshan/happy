@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /src/
+Disallow: /build/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Allow: /
+
+Sitemap: https://whitehappydent.com/sitemap.xml
