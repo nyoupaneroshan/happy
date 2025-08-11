@@ -25,8 +25,8 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
               { value: '99%', label: 'Customer Satisfaction' },
-              { value: '1M+', label: 'Products Sold' },
-              { value: '2+', label: 'Years Experience' },
+              { value: '10k+', label: 'Products Sold' },
+              { value: '2+', label: 'Years' },
               { value: '1+', label: 'Countries' }
             ].map((stat, index) => (
               <motion.div

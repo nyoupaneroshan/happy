@@ -155,5 +155,51 @@ export const blogPosts: BlogPost[] = [
     image: "https://images.pexels.com/photos/12148417/pexels-photo-12148417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 1x, https://images.pexels.com/photos/12148417/pexels-photo-12148417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 2x",
     category: "Wellness",
     tags: ["overall health", "oral-systemic connection", "preventive care"]
+  },
+  {
+    id: 4,
+    title: "What to Expect During Your First Week with Braces: A Survival Guide",
+    excerpt: "Getting braces? Our survival guide covers everything to expect during your first week, from initial discomfort to eating tips, ensuring a smoother transition.",
+    slug: "what-to-expect-first-week-with-braces",
+    content: `
+      <h1>What to Expect During Your First Week with Braces: A Survival Guide</h1>
+
+      <p>Congratulations on starting your journey to a straighter smile! The first week with braces is a unique experience—a mix of excitement and adjustment. At White Happydent, we want to help you navigate it smoothly. Here’s a day-by-day guide on what to expect and how to manage it.</p>
+
+      <img src="https://media.istockphoto.com/id/1388265956/photo/smiling-mouth-with-dental-aligner.jpg?s=612x612&w=0&k=20&c=eR9Decn4nQ0n23Px1iPeNE7Wm2HBqF_J8dvhovi67CA=" alt="Teenager with new braces smiling confidently" class="w-full h-64 object-cover mb-6 rounded-md">
+
+      <h2>Day 1: The Big Day and Initial Tightness</h2>
+      <p>Getting your braces on is painless. Your orthodontist will bond the brackets to your teeth and connect them with an archwire. It won't hurt, but it will feel strange. The main sensation is one of pressure or tightness. Your mouth will also need to get used to the new hardware, and you might feel like your lips are puffing out. This is all completely normal.</p>
+
+      <h2>Days 2-4: Managing Soreness and Irritation</h2>
+      <p>This is typically the most uncomfortable period. Your teeth may feel sore and tender, especially when you bite down, as they begin to shift. Your cheeks, lips, and tongue may also get irritated from rubbing against the new brackets. </p>
+
+      <p><strong>Survival Tips:</strong></p>
+      <ul>
+        <li>Stick to soft foods (more on this below).</li>
+        <li>Use orthodontic wax (your orthodontist will provide this) to cover any brackets that are causing sores.</li>
+        <li>Rinse with warm salt water to soothe irritation.</li>
+        <li>An over-the-counter pain reliever can help, but consult with your doctor first.</li>
+      </ul>
+
+      <img src="https://foodsniff.com/wp-content/uploads/2025/03/soft-food-recipes-high-protein-bariatric-meal.webp" alt="A variety of soft foods like soup, smoothies, and yogurt" class="w-full h-64 object-cover mb-6 rounded-md">
+      
+      <h2>Mastering Your New Menu: What to Eat</h2>
+      <p>Chewing will be a challenge, so stock up on soft foods before your appointment. Think smoothies, yogurt, soup, mashed potatoes, oatmeal, scrambled eggs, and soft-cooked pasta. Avoid anything hard (nuts, ice, hard candy), sticky (caramel, gummy candy), or chewy (hard bread crusts, bagels).</p>
+
+      <h2>Days 5-7: Turning a Corner with a New Cleaning Routine</h2>
+      <p>By the end of the week, the soreness should significantly decrease. You’ll become more accustomed to the feeling of the braces. Now is the time to perfect your new oral hygiene routine. Food gets trapped easily, so you must be diligent.</p>
+      
+      <p>Use a soft-bristled brush with a fluoride toothpaste like <strong>White Happydent</strong> to clean around each bracket. Floss threaders or interdental brushes are essential tools to clean between teeth and under the wire. It takes more time, but it’s crucial for preventing cavities and stains.</p>
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmgkzgJRv8VRf1BDNsLzINsGL0VAPnQvCQw&s" alt="Orthodontic care kit with floss threaders and interdental brushes" class="w-full h-64 object-cover mb-6 rounded-md">
+
+      <p>The first week is the biggest hurdle, but it gets much easier from here. You've got this! For a toothpaste that's gentle but effective for brace-wearers, check out our <a href="/products">Products</a> page. For more tips, keep an eye on our <a href="/blog">blog</a>, or reach out to us directly via our <a href="/contact">contact page</a>.</p>
+    `,
+    author: "Admin",
+    date: "August 11, 2025",
+    image: "https://images.pexels.com/photos/4269941/pexels-photo-4269941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "Orthodontics",
+    tags: ["first week with braces", "braces pain", "what to eat with braces", "orthodontic care"]
   }
 ];
